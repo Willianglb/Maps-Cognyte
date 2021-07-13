@@ -1,8 +1,6 @@
-Este projeto consiste em um formulário de cadastro para residências e um mapa de calor baseado na quantidade de pessoas que moram em cada residência.
+Este projeto é baseado no Leaflet, marca residências com o mapa de calor de acordo com número de moradores.
 
-## Instruções do projeto
-
-Para iniciar o projeto você deve utilizar os seguintes comandos na pasta raíz do repositório:
+Para iniciar o projeto você deve utilizar os seguintes comandos:
 
 ### `yarn install`
 
@@ -14,11 +12,13 @@ Iniciará o servidor projeto [na porta 8080](http://localhost:8080)
 
 ### `yarn start`
 
-Iniciará o projeto [no browser](http://localhost:3000)
+Iniciará o projeto em: (http://localhost:3000)
 
 ## Tecnologias utilizadas
 
-- [React.JS](https://pt-br.reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Styled components](https://styled-components.com/)
-- [React Leaflet](https://react-leaflet.js.org/)
+- React.JS
+- TypeScript
+- Styled components
+- Testing-Library(Jest)
+- Yup com HookForm('@hookform/resolvers/yup')
+- React Leaflet
